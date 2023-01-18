@@ -1,5 +1,11 @@
+import ProductItems from "./components/ProductItems"
+
 function App() {
-    return <div className="bg-red-500">hej</div>
+    return (
+        <div className="p-10">
+            <ProductItems />
+        </div>
+    )
 }
 
 export default App
